@@ -1,0 +1,46 @@
+/*
+css style for portfolio
+set body and article to common css style
+*/
+body,main>div>div>article{
+  background-color:#c6ffff77;
+  font-family: 'Shawdows Into Light', cursive, fantasy;
+  margin: 10px;
+}
+/*
+set common style for headers
+*/
+h1,h2,h3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  color: #332117;
+  text-align: center;
+}
+/* update h2 and h3  headers to be slightly smaller than main header */
+h2{
+  font-size: 30px;
+}
+h3{
+  font-size: 20px
+}
+/* use of class to set parameters for image*/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+}
+/* 
+setup additional parameters for article
+use of class to change parameters for footer and article
+*/
+.foot,.article,footer{
+  margin: 3%;
+  padding: 5%;
+
+}
+/* change a the article color and radius*/
+.article,footer{
+  border-radius: 18px;
+  background-color:#c7ef36ab;
+}
