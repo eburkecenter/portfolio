@@ -6,6 +6,7 @@ body,main>div>div>article{
   background-color:#c6ffff77;
   font-family: 'Shawdows Into Light', cursive, fantasy;
   margin: 10px;
+  
 }
 /*
 set common style for headers
@@ -29,6 +30,7 @@ h3{
   margin-left: auto;
   margin-right: auto;
   width: 35%;
+  padding-bottom: 5px;
 }
 /* 
 setup additional parameters for article
@@ -37,10 +39,48 @@ use of class to change parameters for footer and article
 .foot,.article,footer{
   margin: 3%;
   padding: 5%;
-
 }
 /* change a the article color and radius*/
 .article,footer{
   border-radius: 18px;
   background-color:#c7ef36ab;
+  
+}
+.h2-article,.h3-article{
+  line-height: 1.5;
+}
+/* quick reset */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.location{
+  display: none;
+  text-align: center;
+}
+/* styling location */
+span{
+  text-decoration: underline;
+}
+/* styling the location to add image of said location*/
+span:hover + img{
+   display: block;
+}
+/* horizontal line to separate parts of page*/
+hr {
+    border: none;
+    border-top: 5px double #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+/* adding pseudo element to favorite hobby*/
+.pseudo-inline:hover::after{
+content:"$$$";
+padding: 2px;
+color: red;
+position: relative;
+top: 0px;
 }
