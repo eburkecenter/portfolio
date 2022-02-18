@@ -36,7 +36,7 @@ h3{
 setup additional parameters for article
 use of class to change parameters for footer and article
 */
-.foot,.article,footer{
+.article,footer{
   margin: 3%;
   padding: 5%;
 }
